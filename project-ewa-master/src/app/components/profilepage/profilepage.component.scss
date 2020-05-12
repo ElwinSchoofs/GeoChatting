@@ -1,0 +1,39 @@
+.image-container{
+  height: 260px;
+  width: 260px;
+  background: url('../../../assets/img/d83.png') 50% 50% no-repeat;
+}
+.image{
+  border-radius: 50%;
+}
+.container{
+  padding-top: 20px;
+  width: 60%;
+  margin: auto;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+  }
+}
+.error-message{
+  color: red;
+  font-size: small;
+  margin-bottom: 20px;
+}
+.title-container{
+  display: flex;
+  flex-direction: row;
+}
+.icon{
+  margin-top: 10px;
+  margin-right: 10px;
+  z-index: 35000;
+}
+
+.mat-icon-button{
+  z-index: 1002;
+}
+

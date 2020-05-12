@@ -1,0 +1,13 @@
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" id="navbar-container" opened="{{forceOpenState}}" mode="side">
+    <mat-nav-list>
+      <h4>Administration</h4>
+      <a mat-list-item routerLink="/users" id="users-nav-btn">Users</a>
+      <a mat-list-item routerLink="/settings" id="settings-nav-btn">Settings</a>
+    </mat-nav-list>
+  </mat-drawer>
+</mat-drawer-container>
+
+<div class="btn-group vertical btn-fixed btn-top-left stand-alone">
+  <button mat-raised-button id="navbar-btn" *ngIf="currentUser != null && currentUser.getIsAdmin()" (click)="drawer.toggle()"><mat-icon>settings_application</mat-icon></button>
+</div>

@@ -1,0 +1,215 @@
+/* You can add global styles to this file, and also import other style files */
+$button-spacing: 23px;
+$btn-group-item-space: 10px;
+$ui-elements-z-index: 1001;
+$pulse-color-on: rgba(53, 81, 181, 0.95);
+$pulse-color-off: rgba(53, 81, 181, 0);
+$pulse-iteration-count: 20;
+$pulse-shadow-width: 10px;
+$mat-primary-color: #3f51b5;
+$mat-border-radius: 4px;
+$leaflet-action-element-padding: 8px 8px 0 0;
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.p-t-5 {
+  padding-top: 5px !important;
+}
+
+.p-b-5 {
+  padding-bottom: 5px !important;
+}
+
+.right {
+  float: right;
+}
+
+.full-width {
+  width: 100%;
+}
+
+#toast-container {
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: $ui-elements-z-index;
+}
+
+.sidenav {
+  z-index: 1000;
+}
+
+.btn-group,
+.btn-group.horizontal {
+  display: inline-grid;
+}
+
+.btn-group.vertical {
+  display: inline;
+}
+
+.btn-group.vertical > *:first-of-type {
+  margin: 0 $btn-group-item-space 0 0;
+}
+
+.btn-group.vertical > *:last-of-type {
+  margin: 0 0 0 $btn-group-item-space;
+}
+
+.btn-group.vertical > * {
+  margin: 0 $btn-group-item-space;
+}
+
+.btn-group > *:first-of-type,
+.btn-group.horizontal > *:first-of-type {
+  margin: 0 0 $btn-group-item-space 0;
+}
+
+.btn-group > *:last-of-type,
+.btn-group.horizontal > *:last-of-type {
+  margin: $btn-group-item-space 0 0 0;
+}
+
+.btn-group > *,
+.btn-group.horizontal > * {
+  margin: $btn-group-item-space 0;
+}
+
+i.medium {
+  font-size: 3.5rem;
+}
+
+.btn-fixed {
+  position: fixed;
+  z-index: $ui-elements-z-index;
+}
+
+.btn-top-right {
+  top: $button-spacing;
+  right: $button-spacing;
+}
+
+.btn-top-center {
+  top: $button-spacing;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.btn-top-center > .title {
+  font-size: 4vh;
+  color: #FFF;
+  text-shadow: 0px 0px 7px #000000;
+  font-weight: bold;
+  margin: 0;
+  line-height: 4vh;
+}
+
+.btn-top-left {
+  top: $button-spacing;
+  left: $button-spacing;
+}
+
+.btn-bottom-right {
+  bottom: $button-spacing;
+  right: $button-spacing;
+}
+
+.btn-bottom-left {
+  bottom: $button-spacing;
+  left: $button-spacing;
+}
+
+.btn-fixed.stand-alone > * {
+  margin: 0 !important;
+}
+
+/* Leaflet maps override */
+.leaflet-left .leaflet-control:not(.leaflet-control-attribution) {
+  margin-left: $button-spacing;
+}
+
+.leaflet-bottom .leaflet-control:not(.leaflet-control-attribution) {
+  margin-bottom: $button-spacing;
+}
+
+.leaflet-right .leaflet-control:not(.leaflet-control-attribution) {
+  margin-right: $button-spacing;
+}
+
+.leaflet-top .leaflet-control:not(.leaflet-control-attribution) {
+  margin-top: $button-spacing;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: $mat-border-radius;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  font-weight: 400;
+  font-size: 1.75rem;
+  padding: $leaflet-action-element-padding;
+}
+
+.leaflet-popup-content {
+  margin: 13px 36px 13px 19px;
+}
+
+.btn-previous-page {
+  padding: 15px 7px 0 7px;
+}
+
+/* Input fields should use the width of their parent elements (columns) */
+.mat-form-field {
+  width: 100%;
+}
+
+.mat-drawer-container {
+  background-color: transparent;
+}
+
+.pulse {
+  display: block;
+  border-radius: 50%;
+  background: $pulse-color-on;
+  cursor: pointer;
+  box-shadow: 0 0 0 $pulse-color-on;
+  animation: pulse 2s $pulse-iteration-count;
+}
+
+.pulse:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 $pulse-color-on;
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 $pulse-shadow-width $pulse-color-off;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 $pulse-color-on;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 $pulse-color-on;
+    box-shadow: 0 0 0 0 $pulse-color-on;
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 $pulse-shadow-width $pulse-color-off;
+    box-shadow: 0 0 0 $pulse-shadow-width $pulse-color-off;
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 $pulse-color-off;
+    box-shadow: 0 0 0 0 $pulse-color-off;
+  }
+}

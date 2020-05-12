@@ -1,0 +1,18 @@
+<h4>Delete Account</h4>
+
+<form>
+  <p>Type your password to confirm</p>
+  <mat-form-field class="full-width">
+
+    <input matInput placeholder="Password" name="password" #password="ngModel" [(ngModel)]="passWord" [type]="hide ? 'password' : 'text'">
+  </mat-form-field>
+</form>
+<p class="full-width">
+  <mat-checkbox [(ngModel)]="deleteCheckBox">Are you sure you want to delete your account?</mat-checkbox>
+</p>
+
+<button mat-button (click)="onNoClick()">Cancel</button>
+<button mat-raised-button (click)="deleteProfile()" color="warn" class="right"
+        [disabled]="passWord != passwordCheck || deleteCheckBox == false">Delete Account
+</button>
+

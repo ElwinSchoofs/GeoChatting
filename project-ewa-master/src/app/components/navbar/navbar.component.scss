@@ -1,0 +1,50 @@
+.example-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+  height: 100%;
+}
+
+.example-is-mobile .example-toolbar {
+  position: fixed;
+  z-index: 405;
+}
+
+h1.example-app-name {
+  margin-left: 8px;
+}
+
+.example-sidenav-container {
+  flex: 1;
+  z-index: 401;
+}
+
+.example-is-mobile .example-sidenav-container {
+  flex: 1 0 auto;
+}
+
+.example-container {
+}
+
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.mat-list-base {
+  padding-top: 50px;
+}
+
+.mat-list-base h4 {
+  padding: 0 16px;
+}
+
+.navbarfix {
+  top: 0;
+  z-index: 401;
+}

@@ -1,0 +1,24 @@
+<div id="map"></div>
+
+<div class="btn-group btn-fixed btn-top-center">
+  <p *ngIf="currentUser != null" class="points-background">{{this.currentPoints}}</p>
+</div>
+
+<div class="btn-group vertical btn-fixed btn-top-right">
+  <button (click)="openSignInDialog()" *ngIf="currentUser == null" id="sign-in-btn"  mat-raised-button >Sign in</button>
+  <a routerLink="/profile" id="profile-btn" *ngIf="currentUser != null" mat-fab color="primary">
+    <i class="large material-icons">account_circle</i>
+  </a>
+</div>
+
+<div class="btn-group btn-fixed btn-bottom-right">
+  <button mat-fab color="primary" id="info-btn" *ngIf="currentUser == null"  class="pulse" (click)="openShowInformationDialog()">
+    <i class="large material-icons">info_outline</i>
+  </button>
+
+  <div class="btn-group btn-fixed btn-bottom-right">
+    <button mat-fab color="primary" id="message-btn" *ngIf="currentUser != null" (click)="openCreatePostDialog()">
+      <i class="large material-icons">message</i>
+    </button>
+  </div>
+</div>

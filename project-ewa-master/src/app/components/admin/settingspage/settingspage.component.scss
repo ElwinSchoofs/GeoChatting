@@ -1,0 +1,42 @@
+.example-container{
+  left: 200px;
+  right: 200px;
+  top: 150px;
+  position: absolute;
+}
+
+span.text{
+  width:100px;
+  margin: 0 auto;
+}
+
+.addAdmin{
+  right: 180px;
+  top: 630px;
+  position: absolute;
+}
+
+.deleteAdmin{
+  right: 300px;
+  top: 630px;
+  position: absolute;
+
+}
+
+.currentAdmin {
+  width: 750px;
+  left: 250px;
+  position: absolute;
+}
+
+.currentAdminText {
+  text-align: center;
+}
+
+.SaveButton {
+  right: 190px;
+  top: 550px;
+  position: absolute;
+}
+
+

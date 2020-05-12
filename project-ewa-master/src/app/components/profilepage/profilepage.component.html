@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="title-container">
+    <a routerLink="/" class="icon" mat-icon-button>
+      <mat-icon svgIcon="back"></mat-icon>
+    </a>
+    <h4>My profile - {{currentUser.getNickname()}}</h4>
+  </div>
+  <!--<div class="image-container image"></div>-->
+  <button mat-stroked-button class="right" (click)="openSettingsDialog()">Settings</button>
+
+  <form ngNativeValidate #profileForm="ngForm" name="profileForm" class="">
+    <div class="error-message" *ngIf="nickname.errors">
+      Enter a nickname of at least 3 characters!
+    </div>
+    <mat-form-field class="full-width">
+      <input matInput placeholder="Nickname" name="nickname" #nickname="ngModel" [ngModel]="currentUser.getNickname()" required
+             minlength="3">
+    </mat-form-field>
+    <div class="error-message" *ngIf="email.errors">
+      Enter a valid email!
+    </div>
+    <mat-form-field class="full-width">
+      <input matInput placeholder="Email" name="email" #email="ngModel" [ngModel]="currentUser.getEmail()" required email>
+    </mat-form-field>
+  </form>
+  <button mat-button (click)="openPasswordDialog()">Change Password</button>
+  <button mat-raised-button (click)="saveProfileChanges()" color="primary" class="right" [disabled]="!profileForm.valid || !profileForm.dirty">Save Profile</button>
+</div>

@@ -1,0 +1,112 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --button-space: 23px;
+  --btn-group-item-space: 10px;
+  --ui-elements-z-index: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#toast-container {
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: var(--ui-elements-z-index);
+}
+
+.sidenav {
+  z-index: 1000;
+}
+
+.btn-group,
+.btn-group.horizontal {
+  display: inline-grid;
+}
+
+.btn-group.vertical {
+  display: inline;
+}
+
+.btn-group.vertical > *:first-of-type{
+  margin: 0 var(--btn-group-item-space) 0 0;
+}
+
+.btn-group.vertical > *:last-of-type {
+  margin: 0 0 0 var(--btn-group-item-space);
+}
+
+.btn-group.vertical > * {
+  margin: 0 var(--btn-group-item-space);
+}
+
+.btn-group > *:first-of-type,
+.btn-group.horizontal > *:first-of-type{
+  margin: 0 0 var(--btn-group-item-space) 0;
+}
+
+.btn-group > *:last-of-type
+.btn-group.horizontal > *:last-of-type {
+  margin: var(--btn-group-item-space) 0 0 0;
+}
+
+.btn-group > *
+.btn-group.horizontal > * {
+  margin: var(--btn-group-item-space) 0;
+}
+
+i.medium {
+  font-size: 3.5rem;
+}
+
+.btn-fixed {
+  position: fixed;
+  z-index: var(--ui-elements-z-index);
+}
+
+.btn-top-right {
+  top: var(--button-space);
+  right: var(--button-space);
+}
+
+.btn-top-left {
+  top: var(--button-space);
+  left: var(--button-space);
+  right: 0;
+  bottom: 0;
+}
+
+.btn-bottom-right {
+  bottom: var(--button-space);
+  right: var(--button-space);
+}
+
+.btn-bottom-left {
+  bottom: var(--button-space);
+  left: var(--button-space);
+}
+
+/* Leaflet maps override */
+.leaflet-left .leaflet-control:not(.leaflet-control-attribution) {
+  margin-left: var(--button-space);
+}
+
+.leaflet-bottom .leaflet-control:not(.leaflet-control-attribution) {
+  margin-bottom: var(--button-space);
+}
+
+.leaflet-right .leaflet-control:not(.leaflet-control-attribution) {
+  margin-right: var(--button-space);
+}
+
+.leaflet-top .leaflet-control:not(.leaflet-control-attribution) {
+  margin-top: var(--button-space);
+}
+
+.btn-previous-page {
+  padding: 15px 7px 0 7px;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

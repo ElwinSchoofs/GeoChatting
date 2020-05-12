@@ -1,0 +1,39 @@
+<h2 mat-dialog-title>Please Login or Register</h2>
+<div class="dialog-container">
+  <mat-tab-group>
+    <mat-tab label="Login">
+      <mat-form-field>
+        <input matInput placeholder="Email" name="email"  [(ngModel)]="eMail" required email>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Password" name="password" [(ngModel)]="passWord"
+               [type]="hide ? 'password' : 'text'">
+      </mat-form-field>
+      <button id='button1' mat-raised-button color="primary" (click)="signIn()">Login</button>
+    </mat-tab>
+    <mat-tab label="Register">
+      <form #myForm="ngForm">
+        <mat-form-field class="full-width">
+          <mat-error>Please enter a valid email</mat-error>
+          <input matInput placeholder="Email" name="email" #email="ngModel" [(ngModel)]="eMail" required email>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-error>Your nickname must be atleast 3 characters long</mat-error>
+          <input matInput placeholder="Nickname" name="nickname" #nickname="ngModel" [(ngModel)]="nickName" required
+                 minlength="3">
+        </mat-form-field>
+        <mat-form-field>
+          <mat-error>Your password should be atleast 8 characters long</mat-error>
+          <input matInput placeholder="Password" name="password" #password="ngModel" [(ngModel)]="passWord"
+                 [type]="hide ? 'password' : 'text'" required minlength="8">
+        </mat-form-field>
+        <mat-form-field>
+          <mat-error>Passwords do not match</mat-error>
+          <input matInput placeholder="Repeat password" name="repeatPassword" #repeatPassword="ngModel"
+                 [(ngModel)]="repeatPassWord" (ngModelChange)="checkPassword()" #repeatPassword [type]="hide ? 'password' : 'text'" required>
+        </mat-form-field>
+        <button id='button2' mat-raised-button color="primary" (click)="signUp()">Register</button>
+      </form>
+    </mat-tab>
+  </mat-tab-group>
+</div>

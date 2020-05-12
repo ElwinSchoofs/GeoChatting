@@ -1,0 +1,57 @@
+<h1 mat-dialog-title>Information</h1>
+<div mat-dialog-content class="p-b-5 p-t-5">
+  <mat-accordion>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+         What is the goal of the game?
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+
+      <p>
+        The goal of the game is to get as much points as possible. You will be doing this
+        by opening message from other people. These messages can contain for example a
+        joke or a funny fact. If you're the first person to open the message you will get
+        10 points, if you're the seconde one you will get 9 points. Besides getting points
+        it's also nice to leave the house and play a game.
+      </p>
+    </mat-expansion-panel>
+
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Create an account
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+
+      <p>
+        On the right top of the page you can see the button "sign-in" once you clicked on that,
+        you can log-in if you already have a account, if this isn't the case then click on register.
+        On the register form you have to leave your email, nickname and your password.
+      </p>
+    </mat-expansion-panel>
+
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          create a post
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+
+      <p>
+        At the right-bottom once you logged in you can see a blue bottom within there a icon of a message. You have to click
+        on the button and type in your message. Your message must at least have 10 characters otherwise
+        it won't be able to be shared. If you happen to not want to post your message, just
+        click the cancel button and you will return to the main page. Otherwise click the button create post
+        and your message will be shared.
+      </p>
+    </mat-expansion-panel>
+  </mat-accordion>
+
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onCancel()">Close</button>
+</div>

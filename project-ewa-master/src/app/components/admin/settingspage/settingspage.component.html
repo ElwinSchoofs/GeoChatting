@@ -1,0 +1,48 @@
+<div class="btn-group vertical btn-fixed btn-top-right">
+  <a routerLink="/">
+    <button mat-raised-button><mat-icon>keyboard_backspace</mat-icon></button>
+  </a>
+</div>
+
+<mat-toolbar color="primary" >
+  <mat-toolbar-row>
+    <span class="text">
+      Settings
+    </span>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<br>
+<br>
+
+<br>
+<div class="example-container">
+  <form #settingsForm="ngForm" name="settingsForm">
+    <mat-form-field>
+      <input matInput name="displayTime" #displayTime="ngModel" [ngModel]="displayTimeSetting" placeholder="Message time on map(seconds)">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput name="messageRadius" [ngModel]="messageRadiusSetting" placeholder="Open radius(meter)">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput name="messagePoints" [ngModel]="messagePointsSetting" placeholder="Message points">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput name="messageLength" [ngModel]="messageLengthSetting" placeholder="maximum message length(characters)">
+    </mat-form-field>
+  </form>
+</div>
+
+<br>
+
+<div class="SaveButton">
+  <button mat-raised-button id='button' (click)="saveChanges()">Save Changes</button>
+</div>
+
+
+
+
+

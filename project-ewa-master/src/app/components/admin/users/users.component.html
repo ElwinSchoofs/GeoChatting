@@ -1,0 +1,29 @@
+<div class="btn-group vertical btn-fixed btn-top-right">
+  <a routerLink="/">
+    <button mat-raised-button><mat-icon>keyboard_backspace</mat-icon></button>
+  </a>
+</div>
+
+
+<mat-toolbar color="primary" >
+  <mat-toolbar-row >
+    <span class="text">
+      Users
+    </span>
+  </mat-toolbar-row>
+</mat-toolbar>
+<div class="container">
+  <mat-accordion *ngFor="let user of users" class="user">
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title class="text">
+          {{user.getEmail()}}
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+
+      <mat-slide-toggle [checked]="user.getIsAdmin()" (change)="toggleAdmin(user)">is admin</mat-slide-toggle>
+      <button mat-button color="primary" class="right" (click)="deleteUserDialog(user.getId())">Delete</button>
+
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
