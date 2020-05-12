@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ewaserver:war">
+    <output-path>$PROJECT_DIR$/project-ewa/ewaserver/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ewaserver</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ewaserver-1.0.war">
+      <element id="artifact" artifact-name="ewaserver:war exploded" />
+    </root>
+  </artifact>
+</component>

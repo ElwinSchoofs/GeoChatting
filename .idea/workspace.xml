@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d639fdfe-84f2-49a4-a79a-e37cbadea336" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-ewa/ewaserver/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project-ewa/ewaserver/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/project-ewa/ewaserver/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/repository/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#20#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/ewaserver.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>let</find>
+      <find>h2</find>
+      <find>post</find>
+      <find>password</find>
+      <find>sessions</find>
+      <find>sessionserv</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/project-ewa" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/project-ewa/src/app/components/DeleteUser.ts" />
+        <option value="$PROJECT_DIR$/project-ewa/src/app/services/repositories/base.service.ts" />
+        <option value="$PROJECT_DIR$/project-ewa/src/app/services/repositories/base.service.spec.ts" />
+        <option value="$PROJECT_DIR$/project-ewa/src/app/services/delete.service.ts" />
+        <option value="$PROJECT_DIR$/project-ewa/src/app/model/user/user.ts" />
+        <option value="$PROJECT_DIR$/project-ewa/src/app/services/repositories/user.base.service.ts" />
+        <option value="$PROJECT_DIR$/project-ewa/src/app/services/user.session.service.ts" />
+        <option value="$PROJECT_DIR$/project-ewa/src/app/services/repositories/user.simulation.service.ts" />
+        <option value="$PROJECT_DIR$/project-ewa/src/app/services/repositories/simulation.service.spec.ts" />
+        <option value="$PROJECT_DIR$/project-ewa/src/app/components/mainpage/mainpage.component.ts" />
+        <option value="$PROJECT_DIR$/project-ewa/src/app/components/profilepage/delete-profile-dialog/delete-profile-dialog.component.html" />
+        <option value="$PROJECT_DIR$/project-ewa/src/app/services/repositories/simulation.service.ts" />
+        <option value="$PROJECT_DIR$/project-ewa/src/app/components/profilepage/delete-profile-dialog/delete-profile-dialog.component.ts" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/EwaServerApplication.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/resource/UserInsert.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/EwaServerApplicationTests.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/repository/UserInsertRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/resource/InsertUser.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/repository/UserInsertRepository.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/main/resources/data.sql" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/repository/UserDAOServiceCommandLineRunner.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/project-ewa/src/app/components/mainpage/create-post-dialog/create-post-dialog.component.ts" />
+        <option value="$PROJECT_DIR$/project-ewa/src/app/model/post.ts" />
+        <option value="$PROJECT_DIR$/project-ewa/src/app/services/repositories/post.service.ts" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/repository/SettingsRepository.java" />
+        <option value="$PROJECT_DIR$/project-ewa/src/app/services/session.service.ts" />
+        <option value="$PROJECT_DIR$/project-ewa/src/app/services/repositories/user.service.ts" />
+        <option value="$PROJECT_DIR$/project-ewa/src/app/model/user.ts" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/entity/Identifiable.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/entity/Settings.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/repository/UserRepositoryCommandLineRunner.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/controller/UserControllerTest2.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/controller/UserControllerTest.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/controller/PostControllerTest.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/repository/PostRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/repository/UserRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/Kerim/PostControllerTest.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/Niels/PostControllerTest.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/Elwin/PostRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/Kerim/UserControllerTest.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/Luuk/PostRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/Niels/PostControllerTest.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/Sarah/UserRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/Sarah/UserControllerTest.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/Elwin/PostControllerTest.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/entity/User.java" />
+        <option value="$PROJECT_DIR$/project-ewa/ewaserver/src/main/resources/application.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ewaServer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1902" />
+    <option name="width" value="1953" />
+    <option name="height" value="2058" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EWA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EWA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EWA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EWA" type="462c0819:PsiDirectoryNode" />
+              <item name="project-ewa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EWA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EWA" type="462c0819:PsiDirectoryNode" />
+              <item name="project-ewa" type="462c0819:PsiDirectoryNode" />
+              <item name="ewaserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EWA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EWA" type="462c0819:PsiDirectoryNode" />
+              <item name="project-ewa" type="462c0819:PsiDirectoryNode" />
+              <item name="ewaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EWA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EWA" type="462c0819:PsiDirectoryNode" />
+              <item name="project-ewa" type="462c0819:PsiDirectoryNode" />
+              <item name="ewaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EWA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EWA" type="462c0819:PsiDirectoryNode" />
+              <item name="project-ewa" type="462c0819:PsiDirectoryNode" />
+              <item name="ewaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EWA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EWA" type="462c0819:PsiDirectoryNode" />
+              <item name="project-ewa" type="462c0819:PsiDirectoryNode" />
+              <item name="ewaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ewaserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EWA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EWA" type="462c0819:PsiDirectoryNode" />
+              <item name="project-ewa" type="462c0819:PsiDirectoryNode" />
+              <item name="ewaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ewaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EWA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EWA" type="462c0819:PsiDirectoryNode" />
+              <item name="project-ewa" type="462c0819:PsiDirectoryNode" />
+              <item name="ewaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ewaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EWA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EWA" type="462c0819:PsiDirectoryNode" />
+              <item name="project-ewa" type="462c0819:PsiDirectoryNode" />
+              <item name="ewaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/project-ewa-master" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/project-ewa/node_modules/protractor" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="C:\Users\Elwin\Documents\EWA\project-ewa\node_modules\typescript\lib" />
+    <property name="tslint.code.style.apply.dismiss" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.ewaserver.controller" />
+      <recent name="com.example.ewaserver.repository" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.ewaserver" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.ewaserver.Luuk" />
+      <recent name="com.example.ewaserver.Sarah" />
+      <recent name="Niels" />
+      <recent name="com.example.ewaserver.Kerim" />
+      <recent name="com.example.ewaserver.Elwin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Elwin\Documents\EWA\project-ewa\src\app\services\repositories" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.PostControllerTest.requestPutPostFromEndPoint">
+    <configuration name="All in ewaserver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ewaserver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ewaserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ewaserver.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ewaserver.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ewaserver.controller.PostControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostControllerTest.requestAllPostsFromController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ewaserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ewaserver.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ewaserver.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ewaserver.controller.PostControllerTest" />
+      <option name="METHOD_NAME" value="requestAllPostsFromController" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostControllerTest.requestPutPostFromEndPoint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ewaserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ewaserver.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ewaserver.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ewaserver.controller.PostControllerTest" />
+      <option name="METHOD_NAME" value="requestPutPostFromEndPoint" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ewaserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ewaserver.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ewaserver.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ewaserver.controller.UserControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EwaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ewaserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ewaserver.EwaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PostControllerTest.requestPutPostFromEndPoint" />
+        <item itemvalue="JUnit.PostControllerTest" />
+        <item itemvalue="JUnit.UserControllerTest" />
+        <item itemvalue="JUnit.All in ewaserver" />
+        <item itemvalue="JUnit.PostControllerTest.requestAllPostsFromController" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="showModules" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d639fdfe-84f2-49a4-a79a-e37cbadea336" name="Default Changelist" comment="" />
+      <created>1573505214825</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573505214825</updated>
+      <workItem from="1573505216134" duration="513000" />
+      <workItem from="1573550270584" duration="1602000" />
+      <workItem from="1573853894335" duration="14787000" />
+      <workItem from="1574014509446" duration="297000" />
+      <workItem from="1574014834026" duration="4920000" />
+      <workItem from="1574028518316" duration="230000" />
+      <workItem from="1574078310561" duration="6640000" />
+      <workItem from="1574094888089" duration="6798000" />
+      <workItem from="1574760059503" duration="787000" />
+      <workItem from="1574870582429" duration="35000" />
+      <workItem from="1575370897078" duration="2106000" />
+      <workItem from="1576578661255" duration="475000" />
+      <workItem from="1576579846126" duration="2215000" />
+      <workItem from="1577651010388" duration="8635000" />
+      <workItem from="1578136195314" duration="24280000" />
+      <workItem from="1578321411922" duration="8151000" />
+      <workItem from="1578388286213" duration="13152000" />
+      <workItem from="1578933911406" duration="49000" />
+      <workItem from="1578952783190" duration="2813000" />
+      <workItem from="1579003151132" duration="33373000" />
+      <workItem from="1589285158101" duration="786000" />
+      <workItem from="1589286238902" duration="876000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PostControllerTest_requestAllPostsFromController - 2020.01.14 at 22h 57m 02s.xml">
+      <configuration name="PostControllerTest.requestAllPostsFromController" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PostControllerTest - 2020.01.14 at 23h 03m 26s.xml">
+      <configuration name="PostControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_ewaserver - 2020.01.14 at 23h 04m 09s.xml">
+      <configuration name="All in ewaserver" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PostControllerTest - 2020.01.14 at 23h 04m 41s.xml">
+      <configuration name="PostControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest - 2020.01.14 at 23h 05m 25s.xml">
+      <configuration name="UserControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest - 2020.01.14 at 23h 06m 00s.xml">
+      <configuration name="UserControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PostControllerTest - 2020.01.14 at 23h 06m 39s.xml">
+      <configuration name="PostControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PostControllerTest_requestPutPostFromEndPoint - 2020.01.14 at 23h 07m 31s.xml">
+      <configuration name="PostControllerTest.requestPutPostFromEndPoint" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PostControllerTest_requestPutPostFromEndPoint - 2020.01.14 at 23h 08m 15s.xml">
+      <configuration name="PostControllerTest.requestPutPostFromEndPoint" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PostControllerTest_requestPutPostFromEndPoint - 2020.01.14 at 23h 09m 09s.xml">
+      <configuration name="PostControllerTest.requestPutPostFromEndPoint" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="133520000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1292" height="692" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26779935" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Persistence" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2287234" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919093" weight="0.2216312" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32978722" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32978722" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5008091" side_tool="true" weight="0.44680852" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.32978722" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32978722" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.38120568" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32928804" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/repository/UserInsertRepository.java" />
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/src/app/services/session.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/src/app/services/repositories/user.simulation.service.ts" />
+    <entry file="file://$PROJECT_DIR$/project-ewa/src/app/components/mainpage/login-or-register-dialog/login-or-register-dialog.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/src/app/services/repositories/settings.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/repository/SettingsRepository.java" />
+    <entry file="file://$PROJECT_DIR$/project-ewa/src/app/services/repositories/post.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/src/app/components/mainpage/create-post-dialog/create-post-dialog.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="47" column="60" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/src/app/model/post.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/entity/Settings.java" />
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/repository/UserDAOServiceCommandLineRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/repository/UserDAOService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/src/app/services/session.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/entity/Identifiable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/repository/UserRepositoryCommandLineRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="46" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/repository/EntityRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/src/app/services/points.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/src/app/components/mainpage/mainpage.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/src/app/model/user.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/src/app/components/mainpage/show-information-dialog/show-information-dialog.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/repository/AbstractEntityRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-832">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#28#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/repository/PostRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/entity/Viewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#0#22#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/EwaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/src/app/services/repositories/user.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/controller/UserControllerTest2.java" />
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/entity/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.1.RELEASE/spring-core-5.2.1.RELEASE.jar!/org/springframework/util/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/resource/exception/ResourceNotFound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/resource/exception/Forregistrationden.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/controller/PostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/repository/PostRepositoryTest.java" />
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/controller/UserControllerTest.java" />
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/repository/UserRepositoryTest.java" />
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/controller/PostControllerTest.java" />
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/Kerim/PostControllerTest.java" />
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/Elwin/PostRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/EwaServerApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/Kerim/UserControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/Elwin/PostControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/Niels/PostControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/Sarah/UserControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/Sarah/UserRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/test/java/com/example/ewaserver/Luuk/PostRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/java/com/example/ewaserver/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#20#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/ewaserver.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-ewa/ewaserver/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ewaserver:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (ewaserver)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JPA|ewaserver</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
